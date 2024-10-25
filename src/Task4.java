@@ -14,6 +14,9 @@ public class Task4 {
 
     }
     public static int sredNum(int[] arr) {
+        if (arr.length == 0) {
+            return 0;
+        }
         int sum = 0;
         for (int a : arr) {
             sum += a;
